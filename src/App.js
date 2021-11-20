@@ -89,6 +89,7 @@ function App() {
           <div>
             <label for="initial">Initial value: </label>
             <input
+              className="initialInput"
               name="initial"
               style={{ marginRight: "5%" }}
               type="number"

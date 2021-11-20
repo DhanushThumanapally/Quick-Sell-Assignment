@@ -50,7 +50,7 @@ function Counter({
         </div>
       )}
       <button className="button-subtract" onClick={handleSubtraction}>
-        <em>-</em>
+        <p>-</p>
       </button>
       <input
         className="input-custom"
@@ -62,7 +62,7 @@ function Counter({
         className={addDisabled ? "button-add-disabled" : "button-add"}
         onClick={handleAddition}
       >
-        <em>+</em>
+        <p>+</p>
       </button>
     </div>
   );
